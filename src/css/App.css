@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-  transition: all 1s;
-}
 .AppW {
   background-color: white;
   transition: all 1s;
@@ -49,9 +45,18 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: 10px;
   background-color: burlywood;
   border: none;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid gray;
   cursor: pointer;
 }
